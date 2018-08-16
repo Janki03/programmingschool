@@ -89,15 +89,31 @@
         background-color: #ef272c;
     }
 }
+
 .pinterest-box {
     background-color: #cb2027;
     &:hover {
         background-color: #cb2027;
     }
 }
+
 .instagram-box {
     background-color: #5fa0dd;
     &:hover {
         background-color: #568fce;
+    }
+}
+
+.sidebar {
+    .box-img {
+        width: 80px;
+    }
+    h6 {
+        font-size: .875rem;
+    }
+    .technology-box {
+        .small {
+            font-size: 70%;
+        }
     }
 }

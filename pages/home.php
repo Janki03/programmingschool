@@ -197,7 +197,7 @@
                         <h6>
                         <a href="#" class="gray-600">Sandwich with delicious cheeses and Tasty Toppings</a>
                         </h6>
-                        <div class="mb-2">
+                        <div>
                           <span class="small gray-500 pr-3">
                             <i class="fas fa-user pr-1"></i>
                             Templates Yard
@@ -219,7 +219,7 @@
                         <h6>
                         <a href="#" class="gray-600">Sandwich with delicious cheeses and Tasty Toppings</a>
                         </h6>
-                        <div class="mb-2">
+                        <div>
                           <span class="small gray-500 pr-3">
                             <i class="fas fa-user pr-1"></i>
                             Templates Yard
@@ -241,7 +241,7 @@
                         <h6>
                         <a href="#" class="gray-600">Sandwich with delicious cheeses and Tasty Toppings</a>
                         </h6>
-                        <div class="mb-2">
+                        <div>
                           <span class="small gray-500 pr-3">
                             <i class="fas fa-user pr-1"></i>
                             Templates Yard
@@ -263,7 +263,7 @@
                         <h6>
                         <a href="#" class="gray-600">Sandwich with delicious cheeses and Tasty Toppings</a>
                         </h6>
-                        <div class="mb-2">
+                        <div>
                           <span class="small gray-500 pr-3">
                             <i class="fas fa-user pr-1"></i>
                             Templates Yard
@@ -529,7 +529,7 @@
             </div>
           </div>
           <!-- sidebar -->
-          <div class="col-lg-3 col-md-4 pt-5">
+          <div class="sidebar col-lg-3 col-md-4 pt-5">
             <div class="ads-box text-center h4">Advertisement</div>
             <div class="my-3">
               <h4 class="text-uppercase">Socialize</h4>
@@ -577,6 +577,100 @@
                   </a>
                 </div>
               </div>
+            </div>
+            <div class="ads-box text-center h4">Advertisement</div>
+            <div class="technology-box my-3">
+              <h5 class="text-uppercase">Technology</h5>
+              <ul class="list-unstyled">
+                <li class="border-bottom d-table py-2">
+                  <div class="box-img d-table-cell align-top pr-2">
+                    <div class="blog-img">
+                      <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                    </div>
+                  </div>
+                  <div class="d-table-cell align-top">
+                    <h6>
+                    <a href="#" class="gray-600">Sandwich with delicious cheeses and Tasty Toppings</a>
+                    </h6>
+                    <div>
+                      <span class="small gray-500 pr-3">
+                        <i class="fas fa-user pr-1"></i>
+                        Templates Yard
+                      </span>
+                      <span class="small gray-500">
+                        <i class="far fa-calendar pr-1"></i>
+                        Mar 17, 2016
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="border-bottom d-table py-2">
+                  <div class="box-img d-table-cell align-top pr-2">
+                    <div class="blog-img">
+                      <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                    </div>
+                  </div>
+                  <div class="d-table-cell align-top">
+                    <h6>
+                    <a href="#" class="gray-600">Sandwich with delicious cheeses and Tasty Toppings</a>
+                    </h6>
+                    <div>
+                      <span class="small gray-500 pr-3">
+                        <i class="fas fa-user pr-1"></i>
+                        Templates Yard
+                      </span>
+                      <span class="small gray-500">
+                        <i class="far fa-calendar pr-1"></i>
+                        Mar 17, 2016
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="border-bottom d-table py-2">
+                  <div class="box-img d-table-cell align-top pr-2">
+                    <div class="blog-img">
+                      <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                    </div>
+                  </div>
+                  <div class="d-table-cell align-top">
+                    <h6>
+                    <a href="#" class="gray-600">Sandwich with delicious cheeses and Tasty Toppings</a>
+                    </h6>
+                    <div>
+                      <span class="small gray-500 pr-3">
+                        <i class="fas fa-user pr-1"></i>
+                        Templates Yard
+                      </span>
+                      <span class="small gray-500">
+                        <i class="far fa-calendar pr-1"></i>
+                        Mar 17, 2016
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="border-bottom d-table py-2">
+                  <div class="box-img d-table-cell align-top pr-2">
+                    <div class="blog-img">
+                      <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                    </div>
+                  </div>
+                  <div class="d-table-cell align-top">
+                    <h6>
+                    <a href="#" class="gray-600">Sandwich with delicious cheeses and Tasty Toppings</a>
+                    </h6>
+                    <div>
+                      <span class="small gray-500 pr-3">
+                        <i class="fas fa-user pr-1"></i>
+                        Templates Yard
+                      </span>
+                      <span class="small gray-500">
+                        <i class="far fa-calendar pr-1"></i>
+                        Mar 17, 2016
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
