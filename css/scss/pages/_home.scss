@@ -1,9 +1,103 @@
 .bg-img {
-  @include img-inbg;
-  background-color: $gray-400;
+    @include img-inbg;
+    background-color: $gray-400;
+    @include transition(all .4s linear);
+    &:before {
+        content: '';
+        background-color: rgba(0, 0, 0, .3);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+    }
 }
+
 .blog-img {
-  .bg-img {
-    padding-bottom: 65%;
-  }
+    overflow: hidden;
+    &:hover {
+        .bg-img {
+            @include transform(scale(1.1));
+        }
+    }
+}
+
+.blog-img {
+    .bg-img {
+        padding-bottom: 65%;
+    }
+}
+
+.card-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    .bg-img {
+        padding-bottom: 65%;
+    }
+    .card-block {
+        &:first-child {
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+    }
+}
+
+.ads-box {
+    padding: 5rem 1rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.technology-box {
+    .box-img {
+        width: 100px;
+        .bg-img {
+            padding-bottom: 100%;
+        }
+    }
+}
+
+.social-div {
+    @include transition(all .2s linear);
+}
+
+.facebook-box {
+    background-color: #899dce;
+    &:hover {
+        background-color: #568fce;
+    }
+}
+
+.twitter-box {
+    background-color: #60d2f5;
+    &:hover {
+        background-color: #27c2f5;
+    }
+}
+
+.google-box {
+    background-color: #f74c53;
+    &:hover {
+        background-color: #f7333e;
+    }
+}
+
+.youtube-box {
+    background-color: #ef464b;
+    &:hover {
+        background-color: #ef272c;
+    }
+}
+.pinterest-box {
+    background-color: #cb2027;
+    &:hover {
+        background-color: #cb2027;
+    }
+}
+.instagram-box {
+    background-color: #5fa0dd;
+    &:hover {
+        background-color: #568fce;
+    }
 }
