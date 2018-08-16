@@ -49,6 +49,7 @@ $instagram: #568fce;
             position: absolute;
             left: 0;
             bottom: 0;
+            pointer-events: none;
             .title {
                 font-size: 1.2rem;
                 line-height: 1.3;

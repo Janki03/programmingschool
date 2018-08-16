@@ -11,7 +11,7 @@
         <div class="card-layout span-rows pb-4">
           <div class="card-block">
             <div class="blog-img">
-              <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+              <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
             </div>
             <div class="content p-3">
               <span class="font-weight-medium text-white text-uppercase small">Recent</span>
@@ -30,7 +30,7 @@
           </div>
           <div class="card-block">
             <div class="blog-img">
-              <a class="bg-img d-block" style="background-image: url('http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg')"></a>
+              <a href="#" class="bg-img d-block" style="background-image: url('http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg')"></a>
             </div>
             <div class="content p-3">
               <span class="font-weight-medium text-white text-uppercase small">Recent</span>
@@ -49,7 +49,7 @@
           </div>
           <div class="card-block">
             <div class="blog-img">
-              <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101484105/image.jpg')"></a>
+              <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101484105/image.jpg')"></a>
             </div>
             <div class="content p-3">
               <span class="font-weight-medium text-white text-uppercase small">Recent</span>
@@ -68,7 +68,7 @@
           </div>
           <div class="card-block">
             <div class="blog-img">
-              <a class="bg-img d-block" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg')"></a>
+              <a href="#" class="bg-img d-block" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg')"></a>
             </div>
             <div class="content p-3">
               <span class="font-weight-medium text-white text-uppercase small">Recent</span>
@@ -87,7 +87,7 @@
           </div>
           <div class="card-block">
             <div class="blog-img">
-              <a class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
+              <a href="#" class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
             </div>
             <div class="content p-3">
               <span class="font-weight-medium text-white text-uppercase small">Recent</span>
@@ -111,7 +111,7 @@
           <div class="col-lg-3 col-sm-6 py-2">
             <div class="blog-box">
               <div class="blog-img">
-                <a class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
+                <a href="#" class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
               </div>
               <div class="blog-content mt-2">
                 <h6>
@@ -138,7 +138,7 @@
           <div class="col-lg-3 col-sm-6 py-2">
             <div class="blog-box">
               <div class="blog-img">
-                <a class="bg-img d-block" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg')"></a>
+                <a href="#" class="bg-img d-block" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg')"></a>
               </div>
               <div class="blog-content mt-2">
                 <h6>
@@ -165,7 +165,7 @@
           <div class="col-lg-3 col-sm-6 py-2">
             <div class="blog-box">
               <div class="blog-img">
-                <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101484105/image.jpg')"></a>
+                <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101484105/image.jpg')"></a>
               </div>
               <div class="blog-content mt-2">
                 <h6>
@@ -192,7 +192,7 @@
           <div class="col-lg-3 col-sm-6 py-2">
             <div class="blog-box">
               <div class="blog-img">
-                <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
               </div>
               <div class="blog-content mt-2">
                 <h6>
@@ -231,7 +231,7 @@
                 <div class="col-md-6">
                   <div class="blog-box py-2">
                     <div class="blog-img">
-                      <a class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
+                      <a href="#" class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
                     </div>
                     <div class="blog-content mt-2">
                       <h6>
@@ -260,7 +260,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -282,7 +282,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -304,7 +304,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -326,7 +326,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -355,7 +355,7 @@
                 <div class="col-md-6">
                   <div class="blog-box py-2">
                     <div class="blog-img">
-                      <a class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
+                      <a href="#" class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
                     </div>
                     <div class="blog-content mt-2">
                       <h6>
@@ -384,7 +384,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -406,7 +406,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -428,7 +428,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -450,7 +450,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -479,7 +479,7 @@
                 <div class="col-md-6">
                   <div class="blog-box py-2">
                     <div class="blog-img">
-                      <a class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
+                      <a href="#" class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
                     </div>
                     <div class="blog-content mt-2">
                       <h6>
@@ -508,7 +508,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -530,7 +530,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -552,7 +552,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -574,7 +574,7 @@
                     <li class="border-bottom d-table py-2">
                       <div class="box-img d-table-cell align-top pr-3">
                         <div class="blog-img">
-                          <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                          <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                         </div>
                       </div>
                       <div class="d-table-cell align-top">
@@ -655,7 +655,7 @@
                 <li class="border-bottom d-table py-2">
                   <div class="box-img d-table-cell align-top pr-2">
                     <div class="blog-img">
-                      <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                      <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                     </div>
                   </div>
                   <div class="d-table-cell align-top">
@@ -677,7 +677,7 @@
                 <li class="border-bottom d-table py-2">
                   <div class="box-img d-table-cell align-top pr-2">
                     <div class="blog-img">
-                      <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                      <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                     </div>
                   </div>
                   <div class="d-table-cell align-top">
@@ -699,7 +699,7 @@
                 <li class="border-bottom d-table py-2">
                   <div class="box-img d-table-cell align-top pr-2">
                     <div class="blog-img">
-                      <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                      <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                     </div>
                   </div>
                   <div class="d-table-cell align-top">
@@ -721,7 +721,7 @@
                 <li class="border-bottom d-table py-2">
                   <div class="box-img d-table-cell align-top pr-2">
                     <div class="blog-img">
-                      <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+                      <a href="#" class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
                     </div>
                   </div>
                   <div class="d-table-cell align-top">
