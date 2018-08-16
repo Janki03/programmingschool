@@ -1,0 +1,21 @@
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+.gray-600 {
+  color: $gray-600;
+}
+.gray-500 {
+  color: $gray-500;
+}
+p {
+  color: $gray-600;
+  font-size: .875rem;
+}
+@include media-breakpoint-down(xs) {
+  html {
+    font-size: 14px;
+  }
+
+}

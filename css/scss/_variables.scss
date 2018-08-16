@@ -34,7 +34,7 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #007bff !default;
+$blue:    #26ade4 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -181,10 +181,10 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px
+  sm: 700px,
+  md: 800px,
+  lg: 999px,
+  xl: 1280px
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");

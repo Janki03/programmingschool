@@ -1,0 +1,9 @@
+.bg-img {
+  @include img-inbg;
+  background-color: $gray-400;
+}
+.blog-img {
+  .bg-img {
+    padding-bottom: 65%;
+  }
+}
