@@ -1,0 +1,159 @@
+.site-header {
+	font-family: "Raleway";
+    .logo {
+        width: 12.5rem;
+    }
+    .ads-box {
+        width: calc(100% - 14rem);
+    }
+    .header-menu {
+        display: inline-block;
+        width: 100%;
+        margin: 1.5rem 0 1rem 0;
+        position: relative;
+    }
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu-item {
+        display: inline-block;
+        vertical-align: top;
+        a {
+            font-size: .875rem;
+            display: inline-block;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: $gray-600;
+            padding: 0 .5rem;
+            @include transition(.3s all linear);
+            @include hover-focus-active {
+                color: theme-color("primary");
+            }
+        }
+        &.current-menu-item {
+            a {
+                color: theme-color("primary");
+            }
+        }
+    }
+    .search-icon {
+        color: $gray-600;
+        font-size: 1.2rem;
+        padding: .25rem;
+    }
+    .search-box {
+        position: absolute;
+        right: 0;
+        z-index: 11;
+        @include box-shadow(0 2px 6px rgba(0, 0, 0, .2));
+        background-color: $white;
+        margin-top: 1rem;
+        opacity: 0;
+        visibility: hidden;
+        @include transform(translate(0, 1.25rem));
+        @include transition(all .4s ease);
+        &:before,
+        &:after {
+            content: '';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 .46875rem .5rem .46875rem;
+            position: absolute;
+            right: .3125rem;
+            display: block;
+        }
+        &:before {
+            top: -.5rem;
+            border-color: transparent transparent $gray-300 transparent;
+        }
+        &:after {
+            top: -.4375rem;
+            border-color: transparent transparent $white transparent;
+        }
+        &.open {
+            visibility: visible;
+            opacity: 1;
+            @include transform(translate(0, 0));
+        }
+    }
+    .mobile-menu-overlay {
+        display: none;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .site-header {
+        .ads-box {
+            width: 100%;
+        }
+        .menu-toggle {
+            font-size: 1.5rem;
+            color: $gray-600;
+        }
+        .menu-icon {
+            margin-top: 2.5rem;
+        }
+        .header-menu {
+        	margin: 0;
+        	position: static;
+        }
+        .menu {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            height: 100vh;
+            background-color: $white;
+            width: 15rem;
+            z-index: 12;
+            margin-right: -15rem;
+            @include transition(.3s all linear);
+            .menu-item {
+                display: block;
+                a {
+                    padding: 1rem;
+                    display: block;
+                }
+            }
+            &.open {
+                margin-right: 0;
+            }
+        }
+        .mobile-menu-overlay {
+            display: block;
+            position: fixed;
+            left: 0;
+            right: 0;
+            background-color: rgba($gray-600, .5);
+            top: 0;
+            bottom: 0;
+            height: 100%;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 11;
+            @include transition(.3s all linear);
+            &.open {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        .search-section {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 3.8rem;
+            margin-right: 4rem;
+            width: 18.75rem;
+            text-align: right;
+            .search-box {
+            	margin-right: -3rem;
+            	&:before,&:after {
+            		right: 3.125rem;
+            	}
+            }
+        }
+    }
+}

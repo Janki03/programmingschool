@@ -3,6 +3,11 @@ a {
     text-decoration: none;
   }
 }
+img {
+  &:focus {
+    outline: 0;
+  }
+}
 .gray-600 {
   color: $gray-600;
 }
@@ -12,6 +17,12 @@ a {
 p {
   color: $gray-600;
   font-size: .875rem;
+}
+.pos-r {
+  position: relative;
+}
+.font-weight-medium {
+  font-weight: 600;
 }
 @include media-breakpoint-down(xs) {
   html {

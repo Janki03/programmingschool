@@ -8,37 +8,107 @@
     <div>
       <div class="container">
         <!-- card-layout -->
-        <div class="card-layout span-rows py-4">
+        <div class="card-layout span-rows pb-4">
           <div class="card-block">
             <div class="blog-img">
               <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
+            </div>
+            <div class="content p-3">
+              <span class="font-weight-medium text-white text-uppercase small">Recent</span>
+              <h4 class="text-white mb-0 title">Business man analyzing graphs on a tablet</h4>
+              <div class="mb-2">
+                <span class="small text-white pr-3">
+                  <i class="fas fa-user pr-1"></i>
+                  Templates Yard
+                </span>
+                <span class="small text-white">
+                  <i class="far fa-calendar pr-1"></i>
+                  Mar 17, 2016
+                </span>
+              </div>
             </div>
           </div>
           <div class="card-block">
             <div class="blog-img">
               <a class="bg-img d-block" style="background-image: url('http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg')"></a>
             </div>
+            <div class="content p-3">
+              <span class="font-weight-medium text-white text-uppercase small">Recent</span>
+              <h4 class="text-white mb-0 title">Business man analyzing graphs on a tablet</h4>
+              <div class="mb-2">
+                <span class="small text-white pr-3">
+                  <i class="fas fa-user pr-1"></i>
+                  Templates Yard
+                </span>
+                <span class="small text-white">
+                  <i class="far fa-calendar pr-1"></i>
+                  Mar 17, 2016
+                </span>
+              </div>
+            </div>
           </div>
           <div class="card-block">
             <div class="blog-img">
               <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101484105/image.jpg')"></a>
+            </div>
+            <div class="content p-3">
+              <span class="font-weight-medium text-white text-uppercase small">Recent</span>
+              <h4 class="text-white mb-0 title">Business man analyzing graphs on a tablet</h4>
+              <div class="mb-2">
+                <span class="small text-white pr-3">
+                  <i class="fas fa-user pr-1"></i>
+                  Templates Yard
+                </span>
+                <span class="small text-white">
+                  <i class="far fa-calendar pr-1"></i>
+                  Mar 17, 2016
+                </span>
+              </div>
             </div>
           </div>
           <div class="card-block">
             <div class="blog-img">
               <a class="bg-img d-block" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg')"></a>
             </div>
+            <div class="content p-3">
+              <span class="font-weight-medium text-white text-uppercase small">Recent</span>
+              <h4 class="text-white mb-0 title">Business man analyzing graphs on a tablet</h4>
+              <div class="mb-2">
+                <span class="small text-white pr-3">
+                  <i class="fas fa-user pr-1"></i>
+                  Templates Yard
+                </span>
+                <span class="small text-white">
+                  <i class="far fa-calendar pr-1"></i>
+                  Mar 17, 2016
+                </span>
+              </div>
+            </div>
           </div>
           <div class="card-block">
             <div class="blog-img">
               <a class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
+            </div>
+            <div class="content p-3">
+              <span class="font-weight-medium text-white text-uppercase small">Recent</span>
+              <h4 class="text-white mb-0 title">Business man analyzing graphs on a tablet</h4>
+              <div class="mb-2">
+                <span class="small text-white pr-3">
+                  <i class="fas fa-user pr-1"></i>
+                  Templates Yard
+                </span>
+                <span class="small text-white">
+                  <i class="far fa-calendar pr-1"></i>
+                  Mar 17, 2016
+                </span>
+              </div>
             </div>
           </div>
         </div>
         <!-- end-card-layout -->
         <!-- blog-box -->
         <div class="row py-4">
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 py-2">
             <div class="blog-box">
               <div class="blog-img">
                 <a class="bg-img d-block" style="background-image: url('http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc')"></a>
@@ -65,7 +135,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 py-2">
             <div class="blog-box">
               <div class="blog-img">
                 <a class="bg-img d-block" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg')"></a>
@@ -92,7 +162,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 py-2">
             <div class="blog-box">
               <div class="blog-img">
                 <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101484105/image.jpg')"></a>
@@ -119,7 +189,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 py-2">
             <div class="blog-box">
               <div class="blog-img">
                 <a class="bg-img d-block" style="background-image: url('https://media.timeout.com/images/101602611/image.jpg')"></a>
@@ -154,7 +224,7 @@
         <!-- main-content -->
         <div class="row py-4">
           <!-- technology-box -->
-          <div class="col-lg-9 col-md-8 py-2">
+          <div class="col-xl-9 col-lg-8 py-2">
             <div class="technology-box my-3">
               <h4 class="text-uppercase">Technology</h4>
               <div class="row">
@@ -529,7 +599,7 @@
             </div>
           </div>
           <!-- sidebar -->
-          <div class="sidebar col-lg-3 col-md-4 pt-5">
+          <div class="sidebar col-xl-3 col-lg-4 pt-lg-5 py-2">
             <div class="ads-box text-center h4">Advertisement</div>
             <div class="my-3">
               <h4 class="text-uppercase">Socialize</h4>
