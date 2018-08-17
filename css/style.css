@@ -6816,6 +6816,25 @@ p {
 .sidebar .technology-box .small {
   font-size: 70%; }
 
+.line {
+  border-bottom: 1px solid #ced4da; }
+
+.btn-arrow {
+  padding-right: 2.5rem;
+  position: relative; }
+  .btn-arrow .icon {
+    position: absolute;
+    right: 0;
+    -moz-transition: 0.3s all linear;
+    -o-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear;
+    margin-right: 10px; }
+  .btn-arrow:hover {
+    text-decoration: none; }
+    .btn-arrow:hover .icon {
+      margin-right: 5px; }
+
 @media (max-width: 575.98px) {
   .card-layout .card-block:first-child {
     grid-column: span 1; } }
