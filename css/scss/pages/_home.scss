@@ -127,6 +127,27 @@ $instagram: #568fce;
     }
 }
 
+.line {
+    border-bottom: 1px solid $gray-400;
+}
+
+.btn-arrow {
+    padding-right: 2.5rem;
+    position: relative;
+    .icon {
+        position: absolute;
+        right: 0;
+        @include transition(.3s all linear);
+        margin-right: 10px;
+    }
+    &:hover {
+        text-decoration: none;
+        .icon {
+            margin-right: 5px;
+        }
+    }
+}
+
 @include media-breakpoint-down(xs) {
     .card-layout {
         .card-block {
