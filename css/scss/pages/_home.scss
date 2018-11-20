@@ -1,14 +1,8 @@
-$facebook: #568fce;
-$twitter: #27c2f5;
-$google: #f7333e;
-$youtube: #ef272c;
-$pinterest: #cb2027;
-$instagram: #568fce;
-
 .bg-img {
     @include img-inbg;
     background-color: $gray-400;
     @include transition(all .4s linear);
+
     &:before {
         content: '';
         background-color: rgba(0, 0, 0, .4);
@@ -21,8 +15,14 @@ $instagram: #568fce;
     }
 }
 
+
 .blog-img {
     overflow: hidden;
+
+    .bg-img {
+        padding-bottom: 65%;
+    }
+
     &:hover {
         .bg-img {
             @include transform(scale(1.1));
@@ -30,34 +30,34 @@ $instagram: #568fce;
     }
 }
 
-.blog-img {
-    .bg-img {
-        padding-bottom: 65%;
-    }
-}
-
 .card-layout {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
+
     .bg-img {
         padding-bottom: 65%;
     }
+
     .card-block {
         position: relative;
+
         .content {
             position: absolute;
             left: 0;
             bottom: 0;
             pointer-events: none;
+
             .title {
                 font-size: 1.2rem;
                 line-height: 1.3;
             }
         }
+
         &:first-child {
             grid-row: span 2;
             grid-column: span 2;
+
             .content {
                 .title {
                     font-size: 1.5rem;
@@ -72,60 +72,6 @@ $instagram: #568fce;
     border: 1px solid rgba(0, 0, 0, .2);
 }
 
-.technology-box {
-    .box-img {
-        width: 100px;
-        .bg-img {
-            padding-bottom: 100%;
-        }
-    }
-}
-
-.social-div {
-    @include transition(all .2s linear);
-    opacity: .7;
-    &:hover {
-        opacity: 1;
-    }
-}
-
-.facebook-box {
-    background-color: $facebook;
-}
-
-.twitter-box {
-    background-color: $twitter;
-}
-
-.google-box {
-    background-color: $google;
-}
-
-.youtube-box {
-    background-color: $youtube;
-}
-
-.pinterest-box {
-    background-color: $pinterest;
-}
-
-.instagram-box {
-    background-color: $instagram;
-}
-
-.sidebar {
-    .box-img {
-        width: 80px;
-    }
-    h6 {
-        font-size: .875rem;
-    }
-    .technology-box {
-        .small {
-            font-size: 70%;
-        }
-    }
-}
 
 .line {
     border-bottom: 1px solid $gray-400;
@@ -134,18 +80,42 @@ $instagram: #568fce;
 .btn-arrow {
     padding-right: 2.5rem;
     position: relative;
+
     .icon {
         position: absolute;
         right: 0;
         @include transition(.3s all linear);
         margin-right: 10px;
     }
+
     &:hover {
         text-decoration: none;
+
         .icon {
             margin-right: 5px;
         }
     }
+}
+
+.newsletter {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: $gray-100;
+    border-radius: 4px;
+    text-align: center;
+
+    .newsletter-form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .news-desc {
+        font-size: 1.2rem;
+        text-align: center;
+        max-width: 680px;
+        margin: 1rem auto
+    }
+
 }
 
 @include media-breakpoint-down(xs) {

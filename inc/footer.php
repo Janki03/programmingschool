@@ -1,3 +1,8 @@
+<footer class="site-footer text-center px-3 py-4">
+  <div class="container">
+    <small class="footer-text">Made by <strong>Chirag Patel</strong></small>
+  </div>
+</footer>
 <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {

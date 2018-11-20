@@ -5928,6 +5928,12 @@ p {
       margin-right: -3rem; }
       .site-header .search-section .search-box:before, .site-header .search-section .search-box:after {
         right: 3.125rem; } }
+.site-footer .footer-text {
+  font-size: 1rem;
+  color: #adb5bd; }
+  .site-footer .footer-text strong {
+    color: #343a40; }
+
 .bg-img {
   height: 100%;
   overflow: hidden;
@@ -5954,15 +5960,14 @@ p {
 
 .blog-img {
   overflow: hidden; }
+  .blog-img .bg-img {
+    padding-bottom: 65%; }
   .blog-img:hover .bg-img {
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1); }
-
-.blog-img .bg-img {
-  padding-bottom: 65%; }
 
 .card-layout {
   display: grid;
@@ -5990,45 +5995,6 @@ p {
   padding: 5rem 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2); }
 
-.technology-box .box-img {
-  width: 100px; }
-  .technology-box .box-img .bg-img {
-    padding-bottom: 100%; }
-
-.social-div {
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  opacity: .7; }
-  .social-div:hover {
-    opacity: 1; }
-
-.facebook-box {
-  background-color: #568fce; }
-
-.twitter-box {
-  background-color: #27c2f5; }
-
-.google-box {
-  background-color: #f7333e; }
-
-.youtube-box {
-  background-color: #ef272c; }
-
-.pinterest-box {
-  background-color: #cb2027; }
-
-.instagram-box {
-  background-color: #568fce; }
-
-.sidebar .box-img {
-  width: 80px; }
-.sidebar h6 {
-  font-size: .875rem; }
-.sidebar .technology-box .small {
-  font-size: 70%; }
-
 .line {
   border-bottom: 1px solid #ced4da; }
 
@@ -6047,6 +6013,21 @@ p {
     text-decoration: none; }
     .btn-arrow:hover .icon {
       margin-right: 5px; }
+
+.newsletter {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+  text-align: center; }
+  .newsletter .newsletter-form {
+    max-width: 400px;
+    margin: 0 auto; }
+  .newsletter .news-desc {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 680px;
+    margin: 1rem auto; }
 
 @media (max-width: 575.98px) {
   .card-layout .card-block:first-child {
