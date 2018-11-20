@@ -37,15 +37,18 @@
 				</li>
 			</ul>
 			<div class="right-section float-right">
-				<div class="d-inline-block align-top pr-md-4">
-					<a href="#" class="social-icon px-2">
+				<div class="social-links d-inline-block align-top pr-lg-4">
+					<a href="https://www.facebook.com/programmingschool.io" class="social-icon px-sm-2 px-1" target="_blank">
 						<i class="fab fa-facebook-f"></i>
 					</a>
-					<a href="#" class="social-icon px-2">
+					<a href="#" class="social-icon px-sm-2 px-1" target="_blank">
 						<i class="fab fa-twitter"></i>
 					</a>
-					<a href="#" class="social-icon px-2">
+					<a href="#" class="social-icon px-sm-2 px-1" target="_blank">
 						<i class="fab fa-google-plus-g"></i>
+					</a>
+					<a href="https://www.programmingschool.io/buy-me-a-tea/" class="social-icon px-sm-2 px-1" target="_blank">
+						<i class="fas fa-coffee"></i>
 					</a>
 				</div>
 				<div class="search-section d-inline-block align-top">

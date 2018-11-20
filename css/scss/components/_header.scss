@@ -84,6 +84,13 @@
     .social-icon {
         color: $gray-600;
     }
+    .social-links {
+        .social-icon {
+            &:last-child {
+                color: $yellow;
+            }
+        }
+    }
 }
 
 @include media-breakpoint-down(sm) {
@@ -159,7 +166,7 @@
         }
     }
 }
-@media(max-width: 374px) {
+@media(max-width: 413px) {
     .site-header {
         .logo {
             width: 9.5rem;
