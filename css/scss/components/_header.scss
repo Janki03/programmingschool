@@ -81,6 +81,9 @@
     .mobile-menu-overlay {
         display: none;
     }
+    .social-icon {
+        color: $gray-600;
+    }
 }
 
 @include media-breakpoint-down(sm) {
@@ -139,7 +142,7 @@
                 visibility: visible;
             }
         }
-        .search-section {
+        .right-section {
             position: absolute;
             top: 0;
             right: 0;
@@ -153,6 +156,19 @@
             		right: 3.125rem;
             	}
             }
+        }
+    }
+}
+@media(max-width: 374px) {
+    .site-header {
+        .logo {
+            width: 9.5rem;
+        }
+        .right-section {
+            margin-top: 2.8rem; 
+        }
+        .menu-icon {
+            margin-top: 1.5rem;
         }
     }
 }

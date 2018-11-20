@@ -36,17 +36,30 @@
 					<a href="#">Wordpress</a>
 				</li>
 			</ul>
-			<div class="search-section float-right">
-				<a href="#" class="search-icon">
-					<i class="fas fa-search"></i>
-				</a>
-				<div class="search-box p-3">
-					<div class="row mx-0">
-						<div class="col-8 px-0">
-							<input type="text" name="search" class="form-control rounded-0" />
-						</div>
-						<div class="col-4 px-0">
-							<button class="btn btn-primary rounded-0 btn-block text-uppercase">Search</button>
+			<div class="right-section float-right">
+				<div class="d-inline-block align-top pr-md-4">
+					<a href="#" class="social-icon px-2">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#" class="social-icon px-2">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="#" class="social-icon px-2">
+						<i class="fab fa-google-plus-g"></i>
+					</a>
+				</div>
+				<div class="search-section d-inline-block align-top">
+					<a href="#" class="search-icon">
+						<i class="fas fa-search"></i>
+					</a>
+					<div class="search-box p-3">
+						<div class="row mx-0">
+							<div class="col-8 px-0">
+								<input type="text" name="search" class="form-control rounded-0" />
+							</div>
+							<div class="col-4 px-0">
+								<button class="btn btn-primary rounded-0 btn-block text-uppercase">Search</button>
+							</div>
 						</div>
 					</div>
 				</div>
