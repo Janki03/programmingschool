@@ -5686,8 +5686,9 @@ p {
 .site-header .header-menu {
   display: inline-block;
   width: 100%;
-  margin: 1.5rem 0 1rem 0;
-  position: relative; }
+  padding: 1.5rem 0 1rem 0;
+  position: relative;
+  border-bottom: 2px solid #eee; }
 .site-header .menu {
   list-style: none;
   margin: 0;
@@ -5832,11 +5833,13 @@ p {
     margin-top: 2.8rem; }
   .site-header .menu-icon {
     margin-top: 1.5rem; } }
-.site-footer .footer-text {
-  font-size: 1rem;
-  color: #adb5bd; }
-  .site-footer .footer-text strong {
-    color: #343a40; }
+.site-footer {
+  border-top: 2px solid #eee; }
+  .site-footer .footer-text {
+    font-size: 1rem;
+    color: #adb5bd; }
+    .site-footer .footer-text strong {
+      color: #343a40; }
 
 .bg-img {
   height: 100%;
@@ -5936,5 +5939,45 @@ p {
 @media (max-width: 575.98px) {
   .card-layout .card-block:first-child {
     grid-column: span 1; } }
+.single-blog-page .single-banner {
+  line-height: 0;
+  position: relative;
+  margin-top: -8px; }
+  .single-blog-page .single-banner .banner-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center; }
+  .single-blog-page .single-banner .entry-title {
+    color: #fff; }
+.single-blog-page .banner-image {
+  padding-bottom: 35%;
+  min-height: 250px;
+  background-attachment: fixed; }
+.single-blog-page .blog-content {
+  max-width: 850px;
+  margin: 0 auto; }
+  .single-blog-page .blog-content p,
+  .single-blog-page .blog-content div {
+    font-size: 1.25rem; }
+  .single-blog-page .blog-content img {
+    max-width: 100%; }
+
+@media (max-width: 767.98px) {
+  .single-blog-page .single-banner .entry-title {
+    font-size: 1.5rem; }
+  .single-blog-page .banner-image {
+    background-attachment: inherit; } }
 
 /*# sourceMappingURL=style.css.map */

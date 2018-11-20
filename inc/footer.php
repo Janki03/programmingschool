@@ -1,4 +1,4 @@
-<footer class="site-footer text-center px-3 py-4">
+<footer class="site-footer text-center px-3 py-4 mt-4">
   <div class="container">
     <small class="footer-text">Made by <strong>Chirag Patel</strong></small>
   </div>

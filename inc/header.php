@@ -1,4 +1,4 @@
-<header class="site-header d-inline-block w-100 py-3">
+<header class="site-header d-inline-block w-100 pt-3">
 	<div class="container">
 		<div class="d-inline-block w-100 text-center pos-r">
 			<div class="float-left pr-md-4">
