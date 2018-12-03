@@ -5840,6 +5840,19 @@ p {
     color: #adb5bd; }
     .site-footer .footer-text strong {
       color: #343a40; }
+  .site-footer .scroll-up {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 1em 1em 0;
+    display: none; }
+    .site-footer .scroll-up .btn-scroll-up {
+      background-color: #26ade4;
+      padding: .25rem 1rem;
+      display: inline-block;
+      color: #fff;
+      font-size: 1.5rem;
+      border-radius: .25rem; }
 
 .bg-img {
   height: 100%;

@@ -2,6 +2,11 @@
   <div class="container">
     <small class="footer-text">Made by <strong>Chirag Patel</strong></small>
   </div>
+  <div class="scroll-up">
+    <a href="#" class="btn-scroll-up">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </div>
 </footer>
 <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
@@ -23,5 +28,23 @@ $(document).ready(function() {
     $(".menu,.mobile-menu-overlay").removeClass("open");
     //$("body").removeClass("overflow-hidden");
   });
+
+  //
+  $(window).scroll(function() {
+    if ($(this).scrollTop()) {
+        $('.scroll-up').fadeIn();
+    } else {
+        $('.scroll-up').fadeOut();
+    }
+});
+
+$(".scroll-up").click(function () {
+   //1 second of animation time
+   //html works for FFX but not Chrome
+   //body works for Chrome but not FFX
+   //This strange selector seems to work universally
+   $("html, body").animate({scrollTop: 0}, 1000);
+   return false;
+});
 });
 </script>
